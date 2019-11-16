@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Favorite shows</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>show Search</h1>
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="show-form">
+      <label for="show-input">Add a show!</label>
+      <input type="text" id="show-input">
+      <br>
+
+      <!-- Button triggers new show to be added -->
+      <input id="add-show" type="submit" value="Add a show!">
+    </form>
+
+    <!-- shows will Get Dumped Here -->
+    <div id="shows-view">
+        <table>
+            <tr><td id="0"></td> <td id="1"></td>  <td  id="2"></td>  </tr>
+            <tr><td id="3"></td> <td id="4"></td>  <td id="5"></td>  </tr>
+            <tr><td id="6"></td> <td id="7"></td>  <td id="8"></td> <td id="9"></td>  </tr>
+        </table>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="assets/javascript/app.js"></script>
+  </div>
+</body>
+
+</html>
